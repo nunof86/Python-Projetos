@@ -1,5 +1,9 @@
 import random
 from time import sleep
+
+print("=" * 25)
+print("Sortear um número inteiro")
+print("=" * 25)
 minimo = int(input("Qual é o valor mínimo a sortear? "))
 maximo = int(input("Qual é o valor máximo a sortear? "))
 
