@@ -56,4 +56,7 @@ else:
     print("Opção onválida.")
     while continuar != "S" != "N":
         continuar = str(input("Deseja continuar? (S/N): ")).capitalize()
-        contas()
+        if continuar == "S":
+            contas()
+        elif continuar == "N":
+            print("Cálculos terminados.")
